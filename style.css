@@ -1,0 +1,102 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+
+/* estilos del header  */
+
+header {
+    background-color: orange;
+    height: 90px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#cartaProducto {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.carta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px;
+}
+
+/* main */
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+/* footer */
+
+
+footer {
+    background-color: orange;
+    height: 90px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* carrito */
+
+
+
+.carritoEnIndex {
+    border: solid 5px;
+    height: 700px;
+    width: 700px;
+}
+
+.alternarCarrito{
+    display: none;
+}
+
